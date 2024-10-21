@@ -1,0 +1,24 @@
+{
+  "name": "example-webdriverio6-javascript-ufg",
+  "version": "2.0.0",
+  "description": "Applitools Example: WebdriverIO 6 JavaScript with the Ultrafast Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "test:ci": "wdio wdio-ci.conf.js"
+  },
+  "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.39.0",
+    "@wdio/cli": "^6.12.1",
+    "@wdio/dot-reporter": "^6.11.0",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^9.0.0", 
+    "chromedriver": "^112.0.0"
+  }
+}
